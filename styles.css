@@ -1,0 +1,460 @@
+
+.articleAda{
+    background-image: url(images/fondada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.articleHedy{
+    background-image: url(images/Hedyaccueil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.articlemuriel{
+    background-image: url(images/gobliiins.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:1600px) {
+
+    * {
+        text-decoration: none;
+        list-style-type: none;
+        text-align: justify;
+    }
+    
+    body {
+        background-color: #f0f0f0;
+        font-size: 14px; /* Réduction de la taille globale */
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        background-color: black;
+        margin-top: 1em;
+        height: 10em; /* Réduction de la hauteur du header */
+    }
+    
+    header img {
+        height: 8em; /* Réduction de la taille de l'image */
+        margin-left: 1em;
+    }
+    
+    .navburger {
+        display: none;
+    }
+    
+    .twonav {
+        display: none;
+    }
+    
+    .onenav {
+        width: 100%;
+        border: solid 2px #f0f0f0;
+        margin: 0 1em;
+    }  
+    
+    .onenav ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 6em; /* Réduction de la hauteur de la barre de navigation */
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .onenav ul a {
+        color: black;
+        text-shadow: black 2px 2px 2px;
+        font-size: 1.2em; /* Réduction de la taille de la police */
+        font-weight: bold;
+    }
+    
+    main {
+        margin: 2% 5%;
+        height: 60em; /* Réduction de la hauteur */
+    }
+    
+    h1 {
+        text-shadow: 4px 4px 4px black;
+        font-size: 3em; /* Réduction de la taille des titres */
+        margin-bottom: 0;
+    }
+    
+    .intro {
+        font-weight: bold;
+        font-size: 1.5em; /* Réduction de la taille de l'introduction */
+        font-style: italic;
+        margin-bottom: 0.5em;
+    }
+    
+    .trio {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em;
+        height: auto; /* Suppression de la hauteur fixe */
+    }
+    
+    .articleAda, .articlemuriel, .articleHedy {
+        border: double 0.5em black;
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20em; /* Réduction de la hauteur des articles */
+    }
+    
+    .trio p {
+        font-size: 1em; /* Réduction de la taille de la police */
+        margin: 0.5em;
+        line-height: 1.4em;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        flex-direction: column;
+    }  
+    
+    button {
+        margin: 1em auto;
+        width: 20%;
+        background-color: rgba(255, 255, 255, 0.7);
+        font-size: 0.9em;
+    }
+    
+    button a {
+        color: black;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        background-color: black;
+        margin-top: 10em;
+        height: 10em;
+    }
+    
+    footer img {
+        height: 8em;
+        margin-right: 1em;
+    }
+    }
+    
+    @media screen and (min-width:769px) and (max-width:1599px) {
+    
+    * {
+        text-decoration: none;
+        list-style-type: none;
+        text-align: justify;
+    }
+
+    .navburger {
+        display: none;
+    }
+    
+    .onenav {
+        display: none;
+    }
+    
+    body {
+        background-color: #f0f0f0;
+        font-size: 13px;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        background-color: black;
+        margin-top: 1em;
+        height: 8em;
+    }
+    
+    header img {
+        height: 6em;
+        margin-left: 1em;
+    }
+    
+    .twonav {
+        width: 100%;
+        border: solid 2px #f0f0f0;
+        margin: 0 1em;
+    }  
+    
+    .twonav ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 5em;
+        background-color: rgb(255, 255, 255);
+    }
+    
+
+    .twonav ul a {
+        color: black;
+        text-shadow: black 2px 2px 2px;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    
+    .twonav ul a:hover {
+        box-shadow: 0 3px #C8AD7F;
+    }
+    .home {
+        font-size: 2em;
+        padding-bottom: 0.3em;
+        font-weight: bold;
+    }
+
+    main {
+        margin: 2% 5%;
+        height: auto;
+    }
+    
+    h1 {
+        text-shadow: 4px 4px 4px black;
+        font-size: 2.5em;
+    }
+    
+    .intro {
+        font-weight: bold;
+        font-size: 1.4em;
+        font-style: italic;
+        margin-bottom: 2em;
+    }
+    
+    .trio {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5em;
+        height: auto;
+    }
+    
+    .articleAda, .articlemuriel, .articleHedy {
+        border: double 0.5em black;
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20em;
+    }
+    
+
+    .trio p {
+        font-size: 0.9em;
+        margin: 0.5em;
+        line-height: 1.4em;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    button {
+        padding: 0.6em;
+        margin: 2em auto;
+        width: 30%;
+        background-color: rgba(255, 255, 255, 0.7);
+        font-size: 0.8em;
+    }
+    
+    button a {
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer {
+        display: flex;
+        align-items: center;
+        background-color: black;
+        margin-top: 10em;
+        height: 6.5em;
+    }
+    
+    footer img {
+        height: 5em;
+        margin-left: 1em;
+    }
+
+    .message {
+        font-size: 1.6em;
+        padding-bottom: 0.3em;
+        
+    }
+
+    .play {
+        font-size: 1.8em;
+        padding-bottom: 0.3em;
+        font-weight: bold;
+    }
+
+    footer .twonav ul {
+        height: 3%;
+    }
+
+  
+    }
+    
+    @media screen and (max-width:768px) {
+    
+    * {
+        text-decoration: none;
+        list-style-type: none;
+        text-align: justify;
+    }
+    
+    body {
+        background-color: #f0f0f0;
+        font-size: 12px;
+    }
+    
+    .logofirst {
+        display: none;
+    }
+    
+    footer img {
+        display: none;
+    }
+    
+    .onenav {
+        display: none;
+    }
+    
+    .twonav {
+        display: none;
+    }
+    
+    .navburger {
+        display: flex;
+        justify-content: space-between;
+        height: 8em;
+        width: 100%;
+        background-color: white;
+        border: solid 1em black;
+        margin-right: 1em;
+    }
+    
+    .navburger .logo {
+        margin-top: 0.5em;
+        width: 10em;
+        height: 6em;
+    }
+    
+    .navburger img {
+        height: 4em;
+        width: 4em;
+        background-color: white;
+        cursor: pointer;
+        margin-top: 1em;
+    }
+    
+
+    .button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-top: 1em;
+    }
+    
+    .button:hover {
+        transition: all 0.5s;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-child {
+        display: none;
+        background-color: white;
+        border: solid black;
+        width: 15em;
+        background-color: rgb(255,255,255,0.8);
+    }
+    
+    .dropdown-child a {
+        color: black;
+        display: block;
+        font-weight: bold;
+        font-size: 1.6em;
+        text-align: center;
+        padding: 8%;
+    }
+    
+    .dropdown:hover .dropdown-child {
+        display: block;
+    }
+    
+    .dropdown-child a:hover {
+        background-color: white;
+        border: 1px solid black;
+        box-shadow: 5px 3px 3px black;
+    }
+    
+    .main {
+        margin: 2% 5%;
+        height: auto;
+    }
+    
+    h1 {
+        text-shadow: 4px 4px 4px black;
+        font-size: 2em;
+        margin-top: 1em;
+    }
+    
+    .intro {
+        font-weight: bold;
+        font-size: 1.3em;
+        font-style: italic;
+        margin-bottom: 2em;
+    }
+    
+    .trio {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1em;
+        height: auto;
+    }
+    
+    .articleAda, .articlemuriel, .articleHedy {
+        border: double 0.5em black;
+        margin:2rem;
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 15em;
+    }
+    
+    .trio p {
+        font-size: 0.8em;
+        line-height: 1.4em;
+        margin: 0.5em;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    button {
+        padding: 1em;
+        margin: 3em auto;
+        width: 10em;
+        background-color: rgba(255, 255, 255, 0.7);
+        font-size: 0.8em;
+    }
+    
+    button a {
+        color: black;
+        display: flex;
+        justify-content: center;
+    } 
+
+    .house {
+        font-size: 1.8em;
+    }
+    }
+    
