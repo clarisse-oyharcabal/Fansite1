@@ -373,24 +373,35 @@
     }
     
     .dropdown-child {
-        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
         background-color: white;
         border: solid black;
-        width: 15em;
         background-color: rgb(255,255,255,0.8);
+        box-sizing: border-box;
+        transition: opacity 0.5s, visibility 0.5s;
+        left:6em;
+        transform: translateX(-50%);
+        width:14em;
     }
     
     .dropdown-child a {
         color: black;
+        text-shadow: black 4px 4px 4px;
         display: block;
         font-weight: bold;
         font-size: 1.6em;
         text-align: center;
-        padding: 8%;
+        padding: 0.4em;
+        margin: 0.5em;
     }
     
     .dropdown:hover .dropdown-child {
-        display: block;
+        visibility: visible;
+        opacity: 1;
     }
     
     .dropdown-child a:hover {
@@ -459,7 +470,7 @@
     } 
 
     .house {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
     }
     
