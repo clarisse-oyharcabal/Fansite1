@@ -89,7 +89,6 @@ body {
 header {   
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-image: url(images/backgroundmain.jpg);
     background-repeat:no-repeat;
     background-size: cover;  
@@ -117,6 +116,7 @@ header {
     display: flex;
     align-items: center;
     margin-top: 0.85em;
+    margin-left: 2em;
     font-family:Brush Script MT, Brush Script Std, cursive;
     font-size: 1.6em;
     font-weight: bold;
@@ -124,11 +124,13 @@ header {
 }
 
 .navburger img {
-display: flex;
+position: absolute;
 height: 2.9em;
 width:2.7em;
 background-color:transparent;
 cursor:pointer;
+margin-top: -0.8em;
+margin-left:-4em;
 
 
 }        
@@ -137,23 +139,32 @@ cursor:pointer;
 background-color: transparent;
 border: none;
 cursor: pointer;   
-
+margin-top: 1em;
 }
 
-.button:hover{
-transition: all 0.5s;  
-}
 
 .dropdown {
 position: relative;
 display: inline-block;
+
 }
 
 .dropdown-child {
-display: none;
-background-color: rgb(225, 225, 225,0.8);
-width: 12em;
-border: solid #5F5D53;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(225, 225, 225, 0.8);
+    width: 12em;
+    border: solid #5F5D53;
+    box-sizing: border-box;
+    transition: opacity 0.5s, visibility 0.5s;
+    left: 50%;
+    transform: translateX(-50%);
+    width:15em;
+
+
 }
 
 .dropdown-child a { 
@@ -164,10 +175,12 @@ font-weight: bold;
 font-size: 1em;
 text-align: center;
 padding: 0.7em;
+margin:0.5em;
 }
 
 .dropdown:hover .dropdown-child {
-display: block;  
+    visibility: visible;
+    opacity: 1;
 }
 
 a:hover {
