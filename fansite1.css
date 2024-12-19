@@ -118,7 +118,7 @@ header {
     margin-top: 0.85em;
     margin-left: 2em;
     font-family:Brush Script MT, Brush Script Std, cursive;
-    font-size: 1.6em;
+    font-size: 1.45em;
     font-weight: bold;
     text-shadow: #5F5D53 4px 4px 4px;
 }
@@ -130,7 +130,7 @@ width:2.7em;
 background-color:transparent;
 cursor:pointer;
 margin-top: -0.8em;
-margin-left:-4em;
+
 
 
 }        
@@ -162,7 +162,7 @@ display: inline-block;
     transition: opacity 0.5s, visibility 0.5s;
     left: 50%;
     transform: translateX(-50%);
-    width:15em;
+    width:12em;
 
 
 }
