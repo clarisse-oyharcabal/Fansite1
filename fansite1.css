@@ -162,7 +162,6 @@ display: inline-block;
     transition: opacity 0.5s, visibility 0.5s;
     left: 50%;
     transform: translateX(-50%);
-    width:12em;
 
 
 }
