@@ -329,25 +329,29 @@
     .navburger {
         display: flex;
         justify-content: space-between;
-        height: 8em;
+        height: 4em;
         width: 100%;
         background-color: white;
-        border: solid 1em black;
+        border: solid 0.6em black;
         margin-right: 1em;
     }
     
     .navburger .logo {
-        margin-top: 0.5em;
-        width: 10em;
-        height: 6em;
+        width: 8em;
+        height: 4em;
+        position: relative;
+        margin-top:0.00;
+        
+
     }
     
     .navburger img {
+        position: absolute;
         height: 4em;
         width: 4em;
         background-color: white;
         cursor: pointer;
-        margin-top: 1em;
+        margin-top: -1.2em;
     }
     
 
@@ -363,6 +367,7 @@
     }
     
     .dropdown {
+       width:4Em;
         position: relative;
         display: inline-block;
     }
