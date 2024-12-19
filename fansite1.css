@@ -228,7 +228,8 @@ header {
     background-image: url(images/backgroundmain.jpg);
     background-repeat:no-repeat;
     background-size: cover;  
-    height: 6em;
+    height: 5.5em;
+    margin-top: 1em;
 }
 
 .logoheaderordi {    
@@ -242,7 +243,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    height: 4em; /*pour qu'on puisse voir le fond de header je definie la hauteur pour qu'elle diminue un peu*/
+    height: 3.5em; /*pour qu'on puisse voir le fond de header je definie la hauteur pour qu'elle diminue un peu*/
     background-color: rgb(221 , 209 , 188, 0.6);
 }
    
@@ -252,8 +253,8 @@ header {
     align-items: center;
     justify-content: space-between;
     color: black;
-    text-shadow: #5F5D53 4px 3px 1px;
-    font-size: 1.5em; 
+    text-shadow: #5F5D53 2px 2px 2px;
+    font-size: 1.3em; 
     font-weight: bold;
     
 }
@@ -319,7 +320,7 @@ footer {
     margin-right: 2em; /*effet inverse de la navheader*/
     height: 5em;
     background-size: cover;  
-
+    width: 100%;
 }
 
 .navfooterordinateur {
