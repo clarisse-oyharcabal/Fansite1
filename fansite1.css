@@ -77,6 +77,11 @@ body {
     display:none;
 }
 
+* {
+    width:100%;
+}
+
+    
 .ensemble img {
      /* Ajuste la largeur des images à 50% de leur taille d'origine */
     max-width: 20em; /* Définit une largeur maximale pour les images */
