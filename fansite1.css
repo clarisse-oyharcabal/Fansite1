@@ -79,7 +79,7 @@ body {
 
 .ensemble img {
      /* Ajuste la largeur des images à 50% de leur taille d'origine */
-    max-width: 40em; /* Définit une largeur maximale pour les images */
+    max-width: 20em; /* Définit une largeur maximale pour les images */
     height: auto; /* Maintient les proportions des images */
     margin: 10px;
 }
