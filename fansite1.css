@@ -76,12 +76,7 @@ body {
 .navheader , .navfooter , .logofirst, .navfooterordinateur, .navheaderordinateur, .logoheaderordi, .logofooterordi {
     display:none;
 }
-
-* {
-    width:100%;
-}
-
-    
+ 
 .ensemble img {
      /* Ajuste la largeur des images à 50% de leur taille d'origine */
     max-width: 20em; /* Définit une largeur maximale pour les images */
@@ -106,12 +101,10 @@ header {
 }
 
 .navburger {
-    
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     background-color:  rgb(221 , 209 , 188, 0.6);
-    height: 0.4em;
     width: 100%; 
     padding-bottom: 4.3em; 
      
