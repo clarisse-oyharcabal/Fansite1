@@ -162,7 +162,6 @@ display: inline-block;
     transition: opacity 0.5s, visibility 0.5s;
     left: 50%;
     transform: translateX(-50%);
-    width:12em;
 
 
 }
@@ -189,7 +188,7 @@ box-shadow: 10px 5px 5px #5F5D53;
 }
 
 .house {
-font-size: 1.5em;
+font-size: 1.6em;
 }
 
 .présentation h3 {
