@@ -4,6 +4,9 @@ Ce projet vise à mettre en lumière les contributions de trois femmes exception
 
 De mon côté, je me suis occupée de la **page d'accueil principale**, du **formulaire de contact** (fictif), de la **partie sur Ada Lovelace**, ainsi que du **responsive design** pour que le site soit accessible et fonctionnel sur tous les types d'appareils.
 
+## Lien du site 
+https://clarisse-oyharcabal.github.io/Fansite1/
+
 ## Fonctionnalités
 
 - **Page d'accueil** : Introduction générale sur les femmes en informatique et leur sous-représentation.
